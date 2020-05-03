@@ -16,7 +16,7 @@ Finally, Robin will use Flask to put everything together in her web application.
     
     * NASA news website: <br>https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest
 
-    * Mars’ hemispheres: https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
+    * Mars’ hemispheres: <br> https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
 
 * Open-source distribution software Anaconda and the Jupiter notebook.
 
