@@ -1,14 +1,15 @@
 
 # Import Dependencies.
 import pandas as pd
+import time
 # Import Splinter and BeautifulSoup.
 from splinter import Browser
 from bs4 import BeautifulSoup
 import datetime as dt
 
 # Set the executable path and initialize the chrome browser in splinter.
-executable_path = {'executable_path': '/usr/local/bin/chromedriver'}
-browser = Browser('chrome', **executable_path)
+# executable_path = {'executable_path': '/usr/local/bin/chromedriver'}
+# browser = Browser('chrome', **executable_path)
 
 # Function to initialize the browser.
 
@@ -23,8 +24,12 @@ def scrape_all():
         "news_paragraph": news_paragraph,
         "featured_image": featured_image(browser),
         "facts": mars_facts(browser),
+        "hemispheres": hemispheres(browser),
         "last_modified": dt.datetime.now()
-}
+    }
+    # End the automated browsing session.
+    browser.quit()
+
     return (data)
 # ------ NEWS TITLE AND NEWS PARAGRAPH -------
 
@@ -69,7 +74,7 @@ def featured_image(browser):
     browser.visit(url)
 
     # Find and click the full imagine button.
-    full_image_elem = browser.find_by_id('full_image')
+    full_image_elem = browser.find_by_id('full_image')[0]
     full_image_elem.click()
 
     # Using Splinter’s ability to find elements using text.
@@ -93,6 +98,8 @@ def featured_image(browser):
     except AttributeError:
         return(None)
 
+    img_url = f'https://www.jpl.nasa.gov{img_url_rel}'
+
     return (img_url)
 
 
@@ -115,10 +122,33 @@ def mars_facts(browser):
     df.set_index('Description', inplace = True)
 
     # Convert our DataFrame back into HTML-ready code using the .to_html() function.
-    return (df.to_html())
+    return (df.to_html(classes="table table-striped"))
 
-# End the automated browsing session.
-browser.quit()
+def hemispheres(browser):
+
+    # Visit url.
+    url = ('https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars')
+    browser.visit(url)
+
+    mars_hemispheres = []
+
+    # loop through the four tags and load the data into the dictonary.
+
+    for i in range (4):
+        time.sleep(5)
+        images = browser.find_by_tag('h3')
+        images[i].click()
+        html = browser.html
+        soup = BeautifulSoup(html, "html.parser")
+        image_rel = soup.find('img', class_ = 'wide-image').get('src')
+        image_title = soup.find('h2', class_ = 'title').get_text()
+        image_url = f'https://astrogeology.usgs.gov/{image_rel}'
+        dictonary = {"title": image_title, "image_url": image_url}
+        mars_hemispheres.append(dictonary)
+        browser.back()
+            
+    
+    return (mars_hemispheres)
 
 if __name__ == "__main__":
     # If running as script, print scraped data

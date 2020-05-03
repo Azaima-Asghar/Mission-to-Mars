@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin></origin>
+        <pubdate></pubdate>
+        <title>Cerberus Hemisphere Enhanced</title>
+        <edition></edition>
+        <geoform>Global Mosaic</geoform>
+        <serinfo>
+          <sername></sername>
+          <issue></issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Flagstaff, AZ</pubplace>
+          <publish>USGS Astrogeology Science Center</publish>
+        </pubinfo>
+        <onlink>https://astrogeology.usgs.gov/search/map/Mars/Viking/cerberus_enhanced</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[Mosaic of the Cerberus hemisphere of Mars projected into point perspective]]></abstract>
+      <purpose><![CDATA[]]></purpose>
+      <supplinf><![CDATA[]]></supplinf>
+    </descript>
+    <timeperd>
+      <current></current>
+      <timeinfo>
+        <rngdates>
+          <begdate></begdate>
+          <enddate></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress></progress>
+      <update></update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc></westbc>
+        <eastbc></eastbc>
+        <northbc></northbc>
+        <southbc></southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Astropedia</themekt>
+        <themekey></themekey>
+      </theme>
+    </keywords>
+    <accscope></accscope>
+    <accconst></accconst>
+    <useconst></useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS Astrogeology Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2255 N. Gemini Drive</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+        </cntaddr>
+        <cntvoice>928-556-7011</cntvoice>
+        <cntemail>astroweb@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/cerberus_enhanced.tif/full.jpg</browsen>
+      <browsed></browsed>
+      <browset>JPEG</browset>
+    </browse>
+    <native></native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr></attraccr>
+    </attracc>
+    <logic></logic>
+    <complete></complete>
+    <posacc>
+      <horizpa>
+        <horizpar></horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr></vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin></origin>
+            <pubdate></pubdate>
+            <title></title>
+            <online></online>
+          </citeinfo>
+        </srccite>
+        <srcscale></srcscale>
+        <typesrc></typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate></caldate>
+            </sngdate>
+          </timeinfo>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <procdesc></procdesc>
+        <procdate></procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct></direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount></rowcount>
+      <colcount></colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0</latres>
+        <longres>0</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn></horizdn>
+        <ellips>Mars</ellips>
+        <semiaxis></semiaxis>
+        <denflat>1.0E-10</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum></altdatum>
+        <altres></altres>
+        <altunits></altunits>
+        <altenc>attribute values</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS Astrogeology Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2255 N. Gemini Drive</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+        </cntaddr>
+        <cntvoice>928-556-7011</cntvoice>
+        <cntemail>astroweb@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>None</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>tif</formname>
+          <transize>21889200</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/cerberus_enhanced.tif</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <solarsys>
+    <planetsr>USGS Astrogeology Astropedia</planetsr>
+    <body>
+      <system></system>
+      <target>Mars</target>
+      <quadsys></quadsys>
+      <quadname></quadname>
+      <rada></rada>
+      <radb></radb>
+      <radc></radc>
+      <lattype></lattype>
+      <londom></londom>
+      <londir></londir>
+    </body>
+    <footprin>
+      <maxlat></maxlat>
+      <minlat></minlat>
+      <maxlon></maxlon>
+      <minlon></minlon>
+    </footprin>
+    <feature>
+      <featkey></featkey>
+    </feature>
+    <litho>
+      <lithokey></lithokey>
+    </litho>
+    <tempo>
+      <tempokey></tempokey>
+    </tempo>
+    <mission>
+      <missikey>Viking Orbiter</missikey>
+    </mission>
+    <instr>
+      <instrkey></instrkey>
+      <instrkey></instrkey>
+    </instr>
+    <pdsstat></pdsstat>
+    <pdsarch></pdsarch>
+    <rover>
+      <sol></sol>
+      <featname></featname>
+      <feattarg></feattarg>
+    </rover>
+    <sample>
+      <strdepth></strdepth>
+      <endepth></endepth>
+    </sample>
+    <ctrlnet></ctrlnet>
+    <bittype></bittype>
+    <scale></scale>
+    <bands></bands>
+    <wkt></wkt>
+  </solarsys>
+  <metainfo>
+    <metd>20200502</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS Astrogeology Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2255 N. Gemini Drive</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+        </cntaddr>
+        <cntvoice>928-556-7011</cntvoice>
+        <cntemail>astroweb@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metsdn>FGDC Content Standard for Digital Geospatial Metadata</metsdn>
+    <metstdv>Modifided FGDC standard for use with planetary data</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <metprof>USGS Astrogeology Planetary Geoscience Metadata Standard</metprof>
+    </metextns>
+  </metainfo>
+</metadata>
